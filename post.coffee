@@ -1,3 +1,5 @@
+if window? then Module = window.Module
+
 Module ?= []
 
 env = if window? then 'browser' else 'nodejs'
